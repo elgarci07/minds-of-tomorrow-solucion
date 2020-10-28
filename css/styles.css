@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    /* font family */
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 100px;
+}
+
+
+/* -- Clases de columnas -- */
+
+.one-column {
+    float: left;
+    width: 100%;
+    padding: 10%;
+}
+
+.two-column {
+    padding: 2%;
+    float: left;
+    width: 50%;
+}
+
+.two-column img {
+    width: 100%;
+}
+
+.two-column h1 {
+    font-size: 5vw;
+}
+
+.two-column p {
+    font-size: 3vw;
+}
+
+.four-column {
+    float: left;
+    width: 25%;
+    padding: 2%;
+}
+
+.four-column img {
+    width: 100%;
+}
+
+#section-2 {
+    background-color: #28eca5;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
