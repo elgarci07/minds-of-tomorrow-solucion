@@ -35,6 +35,11 @@ body {
     padding: 10%;
 }
 
+.one-column h1 {
+    font-size: 5vw;
+    text-align: center;
+}
+
 .two-column {
     padding: 2%;
     float: left;
@@ -59,12 +64,37 @@ body {
     padding: 2%;
 }
 
+.four-column p {
+    text-align: center;
+}
+
 .four-column img {
     width: 100%;
 }
 
 #section-2 {
     background-color: #28eca5;
+}
+
+#section-5 {
+    background-color: #46a6fc;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+#footer p {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+/*Clases auxiliares*/
+
+.padding-0 {
+    padding: 0px;
 }
 
 
@@ -74,4 +104,16 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-widht:600px) {
+    .two-column {
+        width: 100%;
+    }
+    .four-column {
+        width: 500%;
+    }
 }
