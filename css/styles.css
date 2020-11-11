@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    /* font family */
-    font-family: 'Quicksand', sans-serif;
+    /* font */
+    font-family: "Averta CY", sans-serif;
 }
 
 body {
@@ -14,6 +14,47 @@ body {
     clear: both;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*BARRA DE NAVEGACIÓN*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 25px;
+    padding: 0 15% 0 10%;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.4;
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*Header*/
+
 .header {
     background-image: url('../img/banner-2.jpg');
     background-size: cover;
@@ -23,7 +64,16 @@ body {
 }
 
 .header h1 {
-    font-size: 100px;
+    font-size: 4.5vw;
+    color: #000000;
+}
+
+.header h2 {
+    font-size: 3vw;
+}
+
+.header h3 {
+    font-size: 2vw;
 }
 
 
