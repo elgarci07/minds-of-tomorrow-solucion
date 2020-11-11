@@ -166,4 +166,10 @@ li a:hover {
     .four-column {
         width: 500%;
     }
+    li a {
+        font-size: 30px;
+    }
+    ul {
+        padding: 0px;
+    }
 }
